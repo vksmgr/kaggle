@@ -55,8 +55,8 @@ def predict_prise():
     print(result.summary())
 
     #ploting the result
-    # plt.scatter(test_x, test_y, color='red')
-    # plt.plot(test_x, predict_prise, linewidth=3)
-    # plt.show()
+    plt.scatter(test_x, test_y, color='red')
+    plt.plot(test_x, predict_prise, linewidth=3)
+    plt.show()
     print('Okay!')
     pass
